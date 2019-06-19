@@ -40,7 +40,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<div class="category-selector">
 					<?php
-						$menu = wp_get_nav_menu_items(8);
+						$menu = wp_get_nav_menu_items(9);
 						foreach ($menu as $category) {
 							$cls = $active_category == $category->object_id ? ' class="active"' : '';
 							echo "<a href='?category=" . $category->object_id . "'".$cls.">".$category->title."</a>";
