@@ -1,0 +1,16 @@
+body, html {
+	overflow-x: clip; 
+	overflow-y: auto; 
+}
+
+body.admin-bar .navbar.fixed-top {
+	top: 32px !important;
+}
+
+body.admin-bar .site {
+	padding-top: 64px !important;
+}
+
+.site {
+	padding-top: 70px !important;
+}

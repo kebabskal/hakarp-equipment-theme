@@ -1,0 +1,21 @@
+#footer-wrapper {
+	margin-bottom: 20px;
+
+	.menu-home.menu-item a::before {
+		color: rgba(0, 0, 0, 0.7) !important;
+	}
+	
+	#footer {
+		font-size: 0.75em;
+
+		a {
+			color: $gray-900;
+		}
+	}
+
+	.aaa {
+		background: url(/wp-content/themes/understrap-child/assets/aaa.svg) no-repeat;
+		background-size: contain;
+		background-position-y: 5px;
+	}
+}

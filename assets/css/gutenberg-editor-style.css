@@ -1,0 +1,15 @@
+.edit-post-visual-editor, .editor-post-title {
+	font-family: Roboto, sans-serif !important;
+}
+
+.edit-post-visual-editor h1, 
+.edit-post-visual-editor h2, 
+.edit-post-visual-editor h3, 
+.edit-post-visual-editor h4, 
+.edit-post-visual-editor h5 {
+	text-transform: uppercase;
+}
+
+.wp-block {
+	max-width: none;
+}

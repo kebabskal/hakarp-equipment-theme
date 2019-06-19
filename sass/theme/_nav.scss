@@ -1,0 +1,75 @@
+#wrapper-navbar {
+	.navbar {
+		padding: 0;
+		a.navbar-brand {
+			img { display: none; }
+			background: url(/wp-content/themes/understrap-child/assets/logo.svg) no-repeat;
+			background-size: contain;
+			padding: 0;
+			margin: 0;
+			width: 300px;
+			height: 70px;
+		}
+
+		.navbar-toggler {
+			position: absolute;
+			top: 15px;
+			right: 15px;
+		}
+
+		li.menu-item {
+			position: relative;
+			min-width: 2.5em;
+		}
+
+		li.current-menu-item::before {
+			content: "";
+			display: block;
+			position: absolute;
+			left: 10px;
+			right: 10px;
+			top: 0;
+			bottom: 5px;
+			border-bottom: solid 3px white;
+		}
+		
+		li.menu-item a {
+			padding: 10px;
+			color: white;
+
+
+			&:hover { color:  rgba(255,255,255,.5); }
+		}
+	}
+}
+
+#wrapper-navbar, #footer-wrapper {
+	nav ul {
+		font-family: Roboto, sans-serif;
+		text-transform: uppercase;
+		font-weight: 800;
+		letter-spacing: 0.2em;
+		font-size: 0.75em;
+		width: 100%;
+
+		justify-content: center;
+		margin-left: 0 !important;
+	}
+	
+	.menu-home.menu-item  {
+		a {
+			display: inline-block;
+			color: transparent;
+			max-width: 2em;
+			overflow: hidden;
+			color: transparent !important;
+			
+			&::before {
+				color: white !important;
+				font-family: 'fontawesome';
+				font-weight: 500;
+				content: "\f015";
+			}
+		}
+	}	
+}

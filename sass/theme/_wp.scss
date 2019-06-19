@@ -1,0 +1,44 @@
+
+.wp-block-columns {
+	@include media-breakpoint-down(md) { 
+		flex-direction: column;
+	}
+}
+
+.wp-block-column.thin {
+	flex: 1;
+}
+
+.wp-block-column.wide {
+	flex: 3;
+	
+	iframe { // For google map
+		width: 100%;
+	}
+}
+
+.wp-block-cover {
+	margin-top: -20px;
+	p {
+		float: right;
+		width: 400px;
+		font-weight: bold;
+		font-style: italic;
+		text-shadow: 0 2px 5px rgba(0,0,0, 0.5);
+		line-height: 1.3em;
+	}
+} 
+
+.wpcf7 {
+	width: 100% !important;
+	max-width: none !important;
+	text-align: left;
+	margin: 0;
+	
+	.wpcf7-form {
+		margin: 0;
+		width: 100%;
+		text-align: left;
+
+	}
+}

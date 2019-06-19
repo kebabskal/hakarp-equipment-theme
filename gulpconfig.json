@@ -1,6 +1,6 @@
 {
   "browserSyncOptions" : {
-    "proxy": "localhost/wordpress/",
+    "proxy": "hakarpmaskin.test",
     "notify": false
   },
   "browserSyncWatchFiles" : [
