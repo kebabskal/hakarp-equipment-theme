@@ -1,5 +1,5 @@
 body, html {
-	overflow-x: clip; 
+	overflow-x: hidden; 
 	overflow-y: auto; 
 }
 
@@ -12,5 +12,5 @@ body.admin-bar .site {
 }
 
 .site {
-	padding-top: 70px !important;
+	padding-top: 60px;
 }
